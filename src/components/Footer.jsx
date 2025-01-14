@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="text-center m-4 mt-16">
-                <p>&copy; {new Date().getFullYear()} Trendspot. Designed and Developed by Collin Mwenda</p>
+                <p>&copy; {new Date().getFullYear()} Trendspot. Designed and Developed by <a href="https://collinm254.github.io/Portfolio1/">Cllin Mwenda</a></p>
             </div>
         </footer>
     );
