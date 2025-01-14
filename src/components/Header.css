@@ -1,0 +1,33 @@
+.neon-banner {
+    position: absolute;
+    width: 100%;
+    height: 0.5cm; /* Adjust height as needed */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.neon-text {
+    display: block;
+    white-space: nowrap;
+    color: #8cffa0; /* Neon green color */
+    text-shadow:
+        0 0 5px #b8ffcb,
+        0 0 10px #b8ffcb,
+        0 0 20px #b8ffcb,
+        0 0 40px #00ff9c,
+        0 0 80px #00ff9c,
+        0 0 90px #00ff9c,
+        0 0 100px #00ff9c,
+        0 0 150px #00ff9c;
+    animation: moveNeon 20s linear infinite;
+}
+
+@keyframes moveNeon {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
