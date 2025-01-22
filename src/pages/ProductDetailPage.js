@@ -160,10 +160,10 @@ const ProductDetailPage = () => {
                                 </select>
                             </div> */}
                             <div className='butBtn mt-4'>
-                                <button className='bg-black rounded-2xl px-6 py-2 text-white'
+                                {/* <button className='bg-black rounded-2xl px-6 py-2 text-white'
                                     onClick={() => { buyNowHandler(productId, productDetails) }}>
                                     Buy Now <WhatsAppIcon />
-                                </button>
+                                </button> */}
                                 <button
                                     className='bg-black rounded-2xl px-6 py-2 text-white mx-4'
                                     onClick={() => addCartHandler(productDetails)}>
