@@ -164,11 +164,6 @@ const ProductDetailPage = () => {
                                     onClick={() => { buyNowHandler(productId, productDetails) }}>
                                     Buy Now <WhatsAppIcon />
                                 </button> */}
-                                <button
-                                    className='bg-black rounded-2xl px-6 py-2 text-white mx-4'
-                                    onClick={() => addCartHandler(productDetails)}>
-                                    Add to cart
-                                </button>
                                 <Tooltip title="You don't need to login to Quick Buy on WhatsApp.">
                                     <button
                                         className='bg-gradient-to-r from-green-400 to-blue-500 rounded-2xl px-6 py-2 text-white'
@@ -176,6 +171,18 @@ const ProductDetailPage = () => {
                                         Quick Buy on WhatsApp <WhatsAppIcon />
                                     </button>
                                 </Tooltip>
+                                <button
+                                    className='bg-black rounded-2xl px-6 py-2 text-white mx-4'
+                                    onClick={() => addCartHandler(productDetails)}>
+                                    Add to cart
+                                </button>
+                                {/* <Tooltip title="You don't need to login to Quick Buy on WhatsApp.">
+                                    <button
+                                        className='bg-gradient-to-r from-green-400 to-blue-500 rounded-2xl px-6 py-2 text-white'
+                                        onClick={() => quickBuyWhatsApp(productDetails)}>
+                                        Quick Buy on WhatsApp <WhatsAppIcon />
+                                    </button>
+                                </Tooltip> */}
                             </div>
                         </div>
                     </div>
