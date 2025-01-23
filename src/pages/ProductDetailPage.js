@@ -30,7 +30,7 @@ const ProductDetailPage = () => {
 
     const quickBuyWhatsApp = (product) => {
         const sellerPhoneNumber = '254741854304'; // Update with the actual seller phone number
-        const message = `Hello Trendspot, I want to quick buy the ${product.name} for Ksh${product.price}. Is it available and is there any discount?`;
+        const message = `Hello Trendspot, I want to quick buy the ${product.name} for Ksh${product.price}. Is it available?`;
         const whatsappUrl = `https://wa.me/${sellerPhoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     };
