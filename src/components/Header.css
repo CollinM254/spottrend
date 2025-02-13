@@ -10,16 +10,16 @@
 .neon-text {
     display: block;
     white-space: nowrap;
-    color: #8cffa0; /* Neon green color */
+    color: #1f0594; /* Neon green color */
     text-shadow:
         0 0 5px #b8ffcb,
         0 0 10px #b8ffcb,
         0 0 20px #b8ffcb,
-        0 0 40px #00ff9c,
-        0 0 80px #00ff9c,
-        0 0 90px #00ff9c,
-        0 0 100px #00ff9c,
-        0 0 150px #00ff9c;
+        0 0 40px #072881,
+        0 0 80px #0705ac,
+        0 0 90px #0044ff,
+        0 0 100px #040d86,
+        0 0 150px #4106ca;
     animation: moveNeon 20s linear infinite;
 }
 
